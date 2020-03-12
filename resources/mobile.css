@@ -1,0 +1,77 @@
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        width: 100%;
+        display: block;
+    }
+
+    .mobile-white {
+        background-color: white !important;
+    }
+    .container-left {
+        min-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .container-right {
+        min-width: 100%;
+        margin: 32px 16px;
+
+    }
+
+    .desktop-visible {
+        display: none !important;
+    }
+
+    .button {
+        min-width: 90%;
+
+    }
+
+    .information-container-right {
+        display: block;
+        min-width: 100% !important;
+        padding: 16px;
+        background-color: white !important;
+    }
+
+    .information-container-small {
+        min-width: 100% !important;
+        background-color: white !important;
+        display: block;
+    }
+
+    .small-img {
+        min-width: 100% !important;
+    }
+
+    .information-img-container {
+        min-width: 100%;
+    }
+
+    .thesis-container-small {
+        background-color: white !important;
+    }
+
+    .courses-container {
+        min-width: 100%;
+        display: block;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .courses-img-container {
+        min-width: 100%;
+        background-color: gray !important;
+        padding: 16px;
+        float: right;
+        margin: 0;
+
+    }
+
+}
